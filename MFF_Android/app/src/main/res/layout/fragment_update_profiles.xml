@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true">-->
+
+        <!--<TableLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="3dip"-->
+            <!--android:stretchColumns="*">-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_gravity="fill"-->
+                    <!--android:layout_span="3"-->
+                    <!--android:background="#03bcd1"-->
+                    <!--android:text="Update Page"-->
+                    <!--android:textSize="25sp" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="First name" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/fnameForUpdtET"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForFnameUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Last name" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/lnameForUpdtET"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForLnameUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="BirthDay" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/dobForUpdtTV"-->
+                    <!--android:layout_width="0.5dip"-->
+                    <!--android:text="MM-DD-YYYY" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/dobForUpdtBtn"-->
+                    <!--android:layout_width="0.5dip"-->
+                    <!--android:text="Pick" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForDoBUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Gender" />-->
+
+                <!--<RadioGroup-->
+                    <!--android:id="@+id/genderForUpdtRG"-->
+                    <!--android:layout_width="1dip">-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/maleBtn"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Male" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/femaleBtn"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Female" />-->
+                <!--</RadioGroup>-->
+
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Course" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/courseForUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Choose One" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/courseForUpdtSpinner"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Mode"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/modeForUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Choose One" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/modeForUpdtSpinner"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Address" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/addrForUpdtET"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForAddrUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Suburb"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/suburbForUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Choose One" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/suburbForUpdtSpinner"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</TableRow>-->
+
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Nationality"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/nationForUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Choose One" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/nationForUpdtSpinner"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Language"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/langForUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Choose One" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/langForUpdtSpinner"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</TableRow>-->
+
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Favourite Sport"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/favSportForUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Choose One" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/favSportForUpdtSpinner"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Favourite Movie" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/favMovieForUpdtET"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForFavMovieUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Favourite Unit"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/favUnitForUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Choose One" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/favUnitForUpdtSpinner"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:layout_height="wrap_content" />-->
+            <!--</TableRow>-->
+
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Current Job" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/jobForUpdtET"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForJobUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Email Address" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/emailForUpdtTV"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForEmailUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Password" />-->
+
+                <!--<EditText-->
+                    <!--android:inputType="textPassword"-->
+                    <!--android:id="@+id/pwdForUpdtET"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForPwdUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+            <!--<TableRow>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="Re-Pwd" />-->
+
+                <!--<EditText-->
+                    <!--android:inputType="textPassword"-->
+                    <!--android:id="@+id/rePwdForUpdtET"-->
+                    <!--android:layout_width="1dip" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/msgForRePwdUpdtTV"-->
+                    <!--android:layout_width="1dip"-->
+                    <!--android:text="error message" />-->
+            <!--</TableRow>-->
+
+
+            <!--<TableRow>-->
+                <!--<Button-->
+                    <!--android:textColor="#44e4af"-->
+                    <!--android:id="@+id/submitUpdtBtn"-->
+                    <!--android:layout_width="2dip"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Update"/>-->
+            <!--</TableRow>-->
+
+        <!--</TableLayout>-->
+
+
+    <!--</ScrollView>-->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleOfRegstPageTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_span="3"
+                android:background="#063ec1"
+                android:text="Update Page"
+                android:textSize="25sp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/cardview_light_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First name" />
+
+            <EditText
+                android:id="@+id/fnameForUpdtET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last name" />
+
+            <EditText
+                android:id="@+id/lnameForUpdtET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BirthDay" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dobForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MM-DD-YYYY" />
+
+                <Button
+                    android:id="@+id/dobForUpdtBtn"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:onClick="showDatePickerDialog"
+                    android:text="Pick" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender" />
+
+            <RadioGroup
+                android:id="@+id/genderForUpdtRG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/maleBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/femaleBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/courseForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose One" />
+
+                <Spinner
+                    android:id="@+id/courseForUpdtSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mode" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/modeForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose One" />
+
+                <Spinner
+                    android:id="@+id/modeForUpdtSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address" />
+
+            <EditText
+                android:id="@+id/addrForUpdtET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suburb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/suburbForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose One" />
+
+                <Spinner
+                    android:id="@+id/suburbForUpdtSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nationality" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nationForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose One" />
+
+                <Spinner
+                    android:id="@+id/nationForUpdtSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/langForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose One" />
+
+                <Spinner
+                    android:id="@+id/langForUpdtSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favourite Sport" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/favSportForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose One" />
+
+                <Spinner
+                    android:id="@+id/favSportForUpdtSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favourite Movie" />
+
+            <EditText
+                android:id="@+id/favMovieForUpdtET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favourite Unit" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/favUnitForUpdtTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose One" />
+
+                <Spinner
+                    android:id="@+id/favUnitForUpdtSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Job" />
+
+            <EditText
+                android:id="@+id/jobForUpdtET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address" />
+
+
+            <TextView
+                android:id="@+id/emailForUpdtTV"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password" />
+
+            <EditText
+                android:id="@+id/pwdForUpdtET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Re-Pwd" />
+
+            <EditText
+                android:id="@+id/rePwdForUpdtET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/submitUpdtBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="#44e4af" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
