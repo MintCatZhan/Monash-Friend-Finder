@@ -1,1 +1,1 @@
-# MonashFFWS
+This project is a practise project for learning some basic knowledge about Android development. It is a "Friend Finder" app that can be used for Monash Uni Students to meet new friends. 
