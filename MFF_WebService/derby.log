@@ -1,20 +1,20 @@
-Sat Apr 29 13:45:02 AEST 2017 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+Fri Jul 28 15:17:01 AEST 2017 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Sat Apr 29 13:45:03 AEST 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-015b-b7cf-d45c-ffffd53b854a 
-on database directory /Users/YuanZhan/Desktop/GitHub/MonashFFWS/MonashFFDB with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Fri Jul 28 15:17:02 AEST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-015d-87a0-6290-ffffa576366c 
+on database directory /Users/YuanZhan/Desktop/GitHub/Monash-Friend-Finder/MFF_WebService/MonashFFDB with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
 Loaded from file:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/db/lib/derby.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_101-b13
 user.dir=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/db
 os.name=Mac OS X
 os.arch=x86_64
-os.version=10.11.6
-derby.system.home=/Users/YuanZhan/Desktop/GitHub/MonashFFWS
+os.version=10.12.6
+derby.system.home=/Users/YuanZhan/Desktop/GitHub/Monash-Friend-Finder/MFF_WebService
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Sat Apr 29 13:47:01 AEST 2017: Shutting down Derby engine
+Fri Jul 28 15:26:44 AEST 2017: Shutting down Derby engine
 ----------------------------------------------------------------
-Sat Apr 29 13:47:01 AEST 2017:
-Shutting down instance a816c00e-015b-b7cf-d45c-ffffd53b854a on database directory /Users/YuanZhan/Desktop/GitHub/MonashFFWS/MonashFFDB with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Fri Jul 28 15:26:44 AEST 2017:
+Shutting down instance a816c00e-015d-87a0-6290-ffffa576366c on database directory /Users/YuanZhan/Desktop/GitHub/Monash-Friend-Finder/MFF_WebService/MonashFFDB with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
 ----------------------------------------------------------------
